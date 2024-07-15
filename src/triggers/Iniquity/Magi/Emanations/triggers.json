@@ -13,7 +13,7 @@
               "highlightBG": "#ffff00",
               "patterns": [
                      {
-                            "pattern": "^\\S+ sweeps .+ overhead and a great wind rises, picking up (\\S+) and casting \\S+ violently about before hurling him back to the ground\\.$",
+                            "pattern": "^\\S+ sweeps .+ overhead and a great wind rises, picking up (\\S+) and casting \\S+ violently about before hurling \\S+ back to the ground\\.$",
                             "type": "regex"
                      }
               ],
