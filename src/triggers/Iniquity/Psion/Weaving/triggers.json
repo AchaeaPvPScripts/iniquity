@@ -13,7 +13,7 @@
          "highlightBG": "#ffff00",
          "patterns": [
                 {
-                       "pattern": "^\\w+ delivers a backhanded blow to the face of (\\w+) with a translucent mace\\.$",
+                       "pattern": "^\\S+ delivers a backhanded blow to the face of (\\S+) with a translucent mace\\.$",
                        "type": "regex"
                 }
          ],
@@ -33,7 +33,7 @@
          "highlightBG": "#ffff00",
          "patterns": [
                 {
-                       "pattern": "^Almost too swift to perceive, \\w+ lashes out with a translucent dagger, tracing a bloody line across the throat of (\\w+)\\.$",
+                       "pattern": "^Almost too swift to perceive, \\S+ lashes out with a translucent dagger, tracing a bloody line across the throat of (\\S+)\\.$",
                        "type": "regex"
                 }
          ],
