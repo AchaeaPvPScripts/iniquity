@@ -60,6 +60,26 @@
          "script": ""
   },
   {
+         "name": "Puncture",
+         "isActive": "yes",
+         "isFolder": "no",
+         "multiline": "no",
+         "multielineDelta": "0",
+         "matchall": "no",
+         "filter": "no",
+         "fireLength": "0",
+         "highlight": "no",
+         "highlightFG": "#ff0000",
+         "highlightBG": "#ffff00",
+         "patterns": [
+                {
+                       "pattern": "^\\S+ lashes out with lightning speed, \\S+ blade driving into (\\S+) just beneath \\w+ (?:left|right) shoulder\\.$",
+                       "type": "regex"
+                }
+         ],
+         "script": ""
+  },
+  {
        "name": "Overhand",
        "isActive": "yes",
        "isFolder": "no",
@@ -74,6 +94,26 @@
        "patterns": [
               {
                      "pattern": "^\\S+ brings a translucent mace around in a savage overhand strike, smashing it into the head of (\\S+)\\.$",
+                     "type": "regex"
+              }
+       ],
+       "script": ""
+  },
+  {
+       "name": "Sever",
+       "isActive": "yes",
+       "isFolder": "no",
+       "multiline": "no",
+       "multielineDelta": "0",
+       "matchall": "no",
+       "filter": "no",
+       "fireLength": "0",
+       "highlight": "no",
+       "highlightFG": "#ff0000",
+       "highlightBG": "#ffff00",
+       "patterns": [
+              {
+                     "pattern": "^\\S+ severs the muscles in the (?:left|right) arm of (\\S+) with a precise blow of \\S+ translucent sword\\.$",
                      "type": "regex"
               }
        ],
