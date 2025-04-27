@@ -15,10 +15,6 @@
       {
         "pattern": "^(\\S+) suddenly sways, \\S+ eyes drooping as \\S+ sags\\.$",
         "type": "regex"
-      },
-      {
-        "pattern":"^TODO fix this\\.$",
-        "type":"regex"
       }
       
     ],
